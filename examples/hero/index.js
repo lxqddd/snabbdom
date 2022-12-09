@@ -4,7 +4,7 @@ import {
   styleModule,
   eventListenersModule,
   h,
-} from "../../build/index.js";
+} from "../../build/snabbdom.cjs";
 
 import { heroModule } from "./hero.js";
 

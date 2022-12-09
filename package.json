@@ -28,7 +28,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsc && npm run bundle:cjs",
-    "bundle:cjs": "rollup build/index.js --format cjs --file build/snabbdom.cjs.js",
+    "bundle:cjs": "rollup build/index.js --format cjs --file build/snabbdom.cjs.js --sourcemap",
     "examples": "serve .",
     "format": "prettier --write .",
     "prepare": "husky install",
